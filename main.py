@@ -149,7 +149,7 @@ async def upload(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
-             url =  "https://anonymousrajputplayer-9ab2f2730a02.herokuapp.com/pw?url={url}&token={token}"
+             url =  "https://anonymousrajputplayer-9ab2f2730a02.herokuapp.com/pw?url={url}&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTI0MjQ0NzkuMzEyLCJkYXRhIjp7Il9pZCI6IjYwNDNiOWQ4MDNmZDA3MDAxODE5Y2FmOSIsInVzZXJuYW1lIjoiODI1MjQwOTAzMiIsImZpcnN0TmFtZSI6IkRoaXJhaiIsImxhc3ROYW1lIjoiU2FoYSIsIm9yZ2FuaXphdGlvbiI6eyJfaWQiOiI1ZWIzOTNlZTk1ZmFiNzQ2OGE3OWQxODkiLCJ3ZWJzaXRlIjoicGh5c2ljc3dhbGxhaC5jb20iLCJuYW1lIjoiUGh5c2ljc3dhbGxhaCJ9LCJlbWFpbCI6ImdyZGRoaXJhanNhaGEyMDA0QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsIm9uZVJvbGVzIjpbXSwidHlwZSI6IlVTRVIifSwiaWF0IjoxNzUxODE5Njc5fQ.UTfAlW1MwUuGgPpecMfD9UHoqph-X4TwWynBryEcFQ0"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) {name1[:60]}'
